@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" type = "text/css" href = "main.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Meu blog</title>
+</head>
+
+<body>
+    <script src = "main.js"></script>
+
+    <header>
+        <a name = "inicio"></a>
+        
+        <div class = "headerDiv">
+            <h1 id = "logo">Meu Blog</h1>
+            <ul>
+                <li><a href = "#inicio"><button type="button" class="btn btn-outline-warning">Início</button></a></li>
+                <li><a href = "posts.html"><button type="button" class="btn btn-outline-warning">Meus posts</button></a></li>
+                <li><a href = "#quemEuSou"><button type="button" class="btn btn-outline-warning">Quem eu sou?</button></a></li>
+                <li><a href = "#minhasHabilidades"><button type="button" class="btn btn-outline-warning">Minhas Habilidades</button></a></li>
+                <li><a href = "#meusHobbies"><button type="button" class="btn btn-outline-warning">Meus Hobbies</button></a></li>
+                <li><a href = "#contact"><button type="button" class="btn btn-outline-warning">Me Contacte!</button></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class = "initial">
+        <div class="initialText">
+            <h1>Olá, Bem vindos ao Meu Blog!</h1>
+            <h2>Desenvolvido por Pedro Leandro.</h2>
+            <a href = "#quemEuSou">
+                <button type="button" class="btn btn-outline-danger">Me conheça</button>
+            </a>
+        </div>
+    </section>
+    
+    <a name = "quemEuSou">
+        <section class = "description">
+            <div class="heading">
+                <h1>Quem eu sou?</h1>
+            </div>
+    
+            <div class="content">
+                <div class="contentText">
+                    <h2>
+                        Olá! Me chamo pedro Leandro Batista Marques.
+                    </h2>
+    
+                    <p>
+                        Atualmente estou cursando o 4º Período de Ciências e Tecnologia com Ênfase 
+                        em Tecnologia de Computação na Universidade Federal do Rio Grande do Norte.
+                        <br/><br/>
+                        Também atuo na Monitoria de Cálculo III por meio do Projeto Avaliação 
+                        Contínua de Exercícios de Cálculo.
+                    </p>
+                </div>
+    
+                <div class="contentBoxImg">
+                    <img src="imagens/eu.png" title = "este sou eu">
+                </div>
+            </div>
+        </section>
+    </a>
+    
+    <a name = "minhasHabilidades">
+        <section class = "habilities">
+            <div class="heading">
+                <h1>Minhas Habilidades</h1>
+            </div>
+    
+            <div class="content">
+                <div class="contentText">
+                    <ol>
+                        <li> Tenho conhecimento razoável em Java, Javascript, C++. </li>
+                        <li> Tenho um pouco de conhecimento em phyton. </li>
+                        <li> Tenho conhecimentos em Banco de dados relacionais (como mySQL).</li>
+                        <li> Sei um pouco de HTML e CSS e Bootstrap. </li>
+                        <li> Tenho um pouco de conhecimento em JSF e JPA (JavaServerFaces e JavaPersistenceAPI) e PrimeFaces. </li>
+                        <li> Compreendo razoavelmente inglês. </li>
+                        <li> Tenho um bom conhecimento em cálculo difercial e integral.</li>
+                    </ol>
+                </div>
+    
+                <div class="contentBoxImg">
+                    <img src="imagens/code.jpg" title = "codigos">
+                </div>
+            </div>
+        </section>
+    </a>
+
+    <a name = "meusHobbies">
+        <section class = "hobby">
+            <div class="rectangle">
+                <div class="heading">
+                    <h1>Meus Hobbies</h1>
+                </div>
+        
+                <div class="content">
+                    <div class="contentText">
+                        <ol>
+                            <li> Jogar jogos de tiro em primeira pessoa (FPS), em especial CS:GO, valorant e battlefield 4. </li>
+                            <li> Não só fps, mas também jogos com uma boa história (The Witcher 3, Hellblade) e alguns indies como Titan Souls e Fall Guys.</li>
+                            <li> Assistir animes. Meus favoritos são: Attack on Titan, My Hero Academia e RE:ZERO.</li>
+                        </ol>
+                    </div>
+        
+                    <div class="contentBoxImg">
+                        <span><img src="imagens/levi.png" title = "Levi Ackerman, personagem de Attack on Titan"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </a>
+
+    <a name = "contact">
+        <footer>
+            <div class="foot">
+                <h3>Você pode entrar em contato comigo... </h3>
+                <p>Pelo meu email: pedrolerybr@gmail.com</p>
+                <h2>Ou por essas duas redes sociais:</h2>
+
+                <a href="http://www.linkedin.com/in/pelean2812" target = "_blank" class = "fa fa-linkedin"></a>
+                <a href="http://www.instagram.com/pelean2812/" target = "_blank" class = "fa fa-instagram"></a>
+
+            </div>
+        </footer>
+    </a>
+</body>
+</html>

@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.initial{
+    position: relative;
+    min-height: 100vh;
+    background: url(imagens/saitama.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    padding: 100px;    
+}
+
+.initial h1{
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: white;
+}
+
+.initial h2{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+}
+
+.initial button{
+    margin-top: 30px;
+}
+
+.headerDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.whiteNav .headerDiv{
+    background: rgba(255,255,255,0.9);
+    padding: 10px 100px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.whiteNav .headerDiv #logo, .whiteNav .headerDiv ul li a{
+    color: #111;
+}
+
+#logo{
+    font-family: 'Orelega One', cursive;
+    color: white; 
+}
+
+.headerDiv ul{
+    position: relative;
+    display: flex;
+}
+
+.headerDiv ul li{
+    position: relative;
+    list-style: none;
+}
+
+.headerDiv ul li a{
+    position: relative; 
+    display: inline-block;
+    margin: 0px 15px;
+    color: white; 
+    text-decoration: none;
+}
+
+.description{
+    min-height: 75vh;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #111;
+}
+
+.heading h1{
+    font-weight: 900;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentText{
+    font-size: 24px;
+    margin-bottom: 8px;
+    padding-right: 100px;
+    text-justify: auto;
+}
+
+.habilities{
+    background: url(imagens/luz.jpg);
+    background-size: cover;
+    background-position: right;
+    min-height: 75vh;
+}
+
+.habilities .heading, .habilities .contentText{
+    color: white;
+    align-items: left;
+    text-justify: auto;
+}
+
+.hobby{
+    background-size: cover;
+    background-position: right;
+    min-height: 75vh;
+}
+
+.foot{
+    padding-top: 20px;
+    background: #111;
+    color: white;
+    min-height: 30vh;
+    text-align: center;
+}
+
+.foot a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
