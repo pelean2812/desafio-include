@@ -22,8 +22,6 @@
 </head>
 
 <body>
-    <script src = "main.js"></script>
-
     <header>
         <a name = "inicio"></a>
         
@@ -31,21 +29,49 @@
             <h1 id = "logo">Meu Blog</h1>
             <ul>
                 <li><a href = "index.html"><button type="button" class="btn btn-outline-warning">Voltar para o início </button></a></li>
-                <li><button type="button" class="btn btn-outline-warning">Criar um post </button></li>
             </ul>
         </div>
     </header>
 
     <section class = "initial">
         <div class="initialText">
-            <h1>Olá, Esta são as minhas <br/>postagens no blog!</h1>
+            <h1>Olá, Abaixo estão as minhas <br/>postagens no blog!</h1>
             <br>
-            <a href = "#posts>
-                <button type="button" class="btn btn-outline-danger">Ver posts</button>
-            </a>
+            <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModalCenter">Criar post</button>
         </div>
     </section>
+  
     
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Adicione um título e o conteúdo do seu post</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="postTitle">Título do post</label>
+                  <input type="text" class="form-control" id="postTitle" placeholder="Insira o título da sua postagem">
+                </div>
+                <div class="form-group">
+                  <label for="postContent">Conteúdo do Post</label>
+                  <input type="text" class="form-control" id="postContent" placeholder="Insira aqui o conteúdo da postagem">
+                </div>
+                <button id = "newPost" type="submit" class="btn btn-primary">Criar post</button>
+              </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <a name = "contact">
         <footer>
             <div class="foot">
@@ -55,9 +81,9 @@
 
                 <a href="http://www.linkedin.com/in/pelean2812" target = "_blank" class = "fa fa-linkedin"></a>
                 <a href="http://www.instagram.com/pelean2812/" target = "_blank" class = "fa fa-instagram"></a>
-
             </div>
         </footer>
     </a>
+    <script src = "script.js"></script>
 </body>
 </html>
